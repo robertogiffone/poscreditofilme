@@ -1,0 +1,285 @@
+body 
+{
+  	/* Margin bottom by footer height */
+	margin-bottom: 60px;
+}
+
+.conteudo-home
+{
+	width: 70%;
+	margin: 0 auto;
+	text-align: center;
+	position: absolute;
+	height: 110px;
+	top: 50%;
+	margin-top:-110px;
+}
+
+
+.conteudo-filmes-pesquisa
+{
+	width: 100%;
+}
+
+.conteudo-filmes-pesquisa ul, .conteudo-filmes-pesquisa form
+{
+	width: 50%;
+}
+
+.conteudo-filmes-pesquisa ul li
+{
+	float: right;
+}
+
+.conteudo-filmes-pesquisa ul li a.voltar-home
+{
+	color: #000;
+	font-weight: bold; 
+	font-size: 1.5em;
+}
+
+.conteudo-filmes-pesquisa .navbar-right .form-control
+{
+	width: 250px;
+}
+
+
+/*
+.conteudo-filmes
+{
+	width: 100%;
+	background-color: #DDD;
+	height: 80px;
+}
+
+.conteudo-filmes h1
+{
+	text-align: right;
+}
+
+.conteudo-filmes form
+{
+	margin-top: 22px;
+	width: 60%;
+}
+*/
+
+.informacoes-filme
+{
+	margin: 0 auto;
+	width: 60%;
+	margin-top: 40px;
+	min-height: 450px;
+}
+
+.informacoes-filme img
+{
+	height: 400px;
+	width: 400px;
+	float: left;
+	margin-right: 40px;
+}
+
+.informacoes-filme h2
+{
+	font-weight: bold;
+}
+
+
+.informacoes-filme .informacoes-cenas-pos-credito
+{
+	background-color: #000;
+	color: #FFF;
+	margin-top: 20px;
+	padding: 5px;
+}
+
+.informacao-correta,.informacao-incorreta
+{
+	cursor: pointer;
+	font-size: 1.2em;	
+	margin-left: 20px
+}
+
+.informacao-correta
+{
+	color: #FFF;
+}
+
+.informacao-incorreta
+{
+	color: #FFF;
+
+}
+
+.filme-nao-encontrado
+{	
+	/*background-color: #ddd;*/
+	margin: 0 auto;
+	width: 60%;
+	margin-top: 40px;
+	text-align: center;
+}
+
+.filme-nao-encontrado h3
+{
+	margin-top: 60px;
+	margin-bottom: 40px;
+	font-weight: bold;
+}
+
+.filme-nao-encontrado p:nth-child(3)
+{
+	color: #ccc;
+}
+
+.filme-nao-encontrado a
+{
+	margin-top: 20px;
+	border: 1px solid #000;
+	border-radius: 10px;
+	color: #000;
+}
+
+.sugestao-filme
+{
+	margin: 0 auto;
+	margin-top: 30px;
+	max-width: 500px;
+}
+
+.sugestao-filme button
+{
+	margin-top: 20px;
+}
+
+ul
+{
+	list-style-type: none;
+}
+
+ul.links-rodape
+{
+	text-align: center;
+	line-height: 60px;
+}
+
+ul.links-rodape li
+{
+	display: inline;
+	margin: 10px;
+	padding-right: 10px;
+}
+
+ul.links-rodape li:nth-child(1), ul.links-rodape li:nth-child(2)
+{
+	border-right: 1px solid #000;
+}
+
+a
+{
+	text-decoration: none;
+	color: #BBB;
+}
+
+a:hover
+{
+	cursor: pointer;
+	text-decoration: none;
+	color: #696969;
+}
+
+.footer 
+{
+	position: absolute;
+  	bottom: 0;
+  	width: 100%;
+  	/* Set the fixed height of the footer here */
+  	height: 60px;
+  	background-color: #f5f5f5;
+}
+
+
+/* Custom page CSS
+-------------------------------------------------- */
+.container-fluid .text-muted 
+{
+  	text-align: right;
+  	margin: -60px 0;
+}
+
+.footer > .container-fluid {
+	padding-right: 15px;
+	padding-left: 15px;
+}
+
+.nome_footer
+{
+	display: block;
+	margin-right: 70px;
+}
+
+@media only screen and (max-width: 1080px) 
+{
+
+	footer .container-fluid .text-muted 
+	{
+	  	margin-top: 5px;
+	  	text-align: center;	
+	}
+
+	.footer 
+	{
+	  	height: 140px;
+	  	margin-top: 20px;
+	}
+
+	.nome_footer
+	{
+		margin: 0;
+	}
+
+
+}
+
+@media only screen and (max-width: 700px) 
+{	
+
+	.conteudo-home 
+	{
+		width: 95%;		
+	}
+
+	.conteudo-home h1
+	{
+		text-align: left;
+	}
+
+}
+
+@media only screen and (max-width: 500px) 
+{	
+
+	.conteudo-home h1
+	{
+		font-size: 1.5em;
+		font-weight: bold;
+	}
+
+	.conteudo-home 
+	{
+		width: 90%;		
+	}
+
+}
+
+@media only screen and (max-width: 350px) 
+{	
+
+	.footer .links-rodape
+	{
+	
+		margin-left: -40px;
+	}
+
+}

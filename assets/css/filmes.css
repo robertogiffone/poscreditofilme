@@ -1,0 +1,56 @@
+.sugestao-correcao
+{
+	cursor: pointer;
+}
+
+@media only screen and (max-width: 1080px) 
+{
+
+	.informacoes-filme img
+	{
+		height: 250px;
+		width: 250px;
+	}
+
+	.informacoes-filme .informacoes-cenas-pos-credito
+	{
+		margin-top: 20px;
+	}
+
+	.footer 
+	{
+	  	position: relative;
+	}
+
+}
+
+@media only screen and (max-width: 700px) 
+{	
+
+	.informacoes-filme img
+	{
+		height: 150px;
+		width: 150px;
+	}
+
+	.conteudo-filmes-pesquisa ul li
+	{
+		float: left;
+	}
+
+	.conteudo-filmes-pesquisa .navbar-nav
+	{
+		width: 100%;
+	}
+
+	.conteudo-filmes-pesquisa .navbar-right
+	{
+		width: 100%;
+	}
+	
+	.conteudo-filmes-pesquisa .navbar-right .form-control 
+	{
+    	width: 100%;
+	}
+
+}
